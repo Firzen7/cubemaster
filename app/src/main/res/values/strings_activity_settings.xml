@@ -1,0 +1,18 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    
+    <string name="pref_cube_colors">Set cube colours</string>
+    <string name="pref_cube_size">Set cube size</string>
+    <string name="pref_rotation_speed">Rotation quality</string>
+    <string name="pref_moves_speed">Speed of moves</string>
+    <string name="pref_show_layers_help">Show solution popups</string>
+    <string name="pref_scramble_count">Scramble moves count</string>
+    <string name="reset_settings">Reset settings</string>
+    
+    <string name="pref_cube_colors_desc">Adjusts field colours on the cube</string>
+    <string name="pref_rotation_speed_desc">Determines, smoothness of the cube animations</string>
+    <string name="pref_moves_speed_desc">Adjusts speed of moves of the cube</string>
+    <string name="pref_show_layers_help_desc">Switches the popups with solution guide</string>
+    <string name="pref_scramble_count_desc">Adjusts the count of random moves for scrambling the cube</string>
+    <string name="reset_settings_desc">Resets all settings to default values</string>
+</resources>

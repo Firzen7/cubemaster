@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom" >
+
+        <FrameLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="414dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:clipChildren="true"
+            android:measureAllChildren="true" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/watermark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/image54"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="#55FFFFFF"
+                android:gravity="center"
+                android:text="@string/detect_hint"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha="1"
+            android:gravity="bottom|fill"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/side_done"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:background="@android:drawable/btn_default"
+                android:text="@string/photo" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_default"
+                android:enabled="false"
+                android:text="@string/show_preview" />
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

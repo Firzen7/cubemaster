@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <info.firzen.cubemaster2.gui.CubeFieldView
+            android:id="@+id/cubeFieldView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

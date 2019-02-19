@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/second_layer_3x3x3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nyní vidíte kostku v tomto tvaru:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_6" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V tomto okamžiku je zapotřebí složit druhou - prostřední - vrstvu. K tomuto účelu si nejprve kostku otočíme vzhůru nohama tak, aby vypadala nějak takto:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_14" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nyní je tedy potřeba složit hrany, které jsou ještě přeházené. Tyto hrany se nachází v horní vrstvě. Abychom mohli tato políčka správně poskládat, je nutné vždy horní vrstvou pootočit tak, aby se barva políčka na přední straně shodovala s barvou políčka pod ním, a zároveň, aby druhá barva tohoto políčka odpovídala barvě, která se nachází v již složené 1. vrstvě na straně buď pravé nebo levé. Mohou poté tedy nastat dva případy:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/cube_3x3x3_10" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/cube_3x3x3_1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V případě, že se políčko nachází v pozici naznačené na obrázku vlevo, a je třeba jej tedy umístit nalevo, provedeme tahy Ui Li U L U F Ui Fi.\n\nNachází-li se políčko v pozici naznačené na obrázku vpravo, provedeme tahy U R Ui Ri Ui Fi U F."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

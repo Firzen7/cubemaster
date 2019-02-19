@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cubeActivityLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#292D29"
+    android:gravity="right"
+    tools:context="info.firzen.cubemaster2.activities.CubeActivity" >
+
+    <FrameLayout
+        android:id="@+id/cubeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout2" >
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="1"
+        android:gravity="bottom|fill"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_play"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/show_solution_now"
+            android:visibility="invisible"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button_load"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/load_side"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button_edit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/edit_cube"
+            android:visibility="invisible"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:visibility="invisible"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button_forward"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/forward"
+            android:visibility="invisible"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/actualSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/linearLayout2"
+        android:layout_toStartOf="@+id/linearLayout2"
+        android:gravity="center"
+        android:text="@string/front"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#DDDDDD" />
+    
+    <TextView
+	    android:id="@+id/lastMove"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignBottom="@+id/linearLayout2"
+	    android:layout_toRightOf="@+id/linearLayout2"
+	    android:layout_toEndOf="@+id/linearLayout2"
+	    android:gravity="center"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#DDDDDD" />
+
+    <FrameLayout
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cubeView"
+        android:background="#2debffeb" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <info.firzen.cubemaster2.gui.ColorChooser
+        android:id="@+id/colorChooser"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/cubeView"
+        android:layout_alignParentRight="true"
+       	android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/actualSide"
+        android:layout_toEndOf="@+id/actualSide"
+        android:visibility="invisible" />
+
+</RelativeLayout>

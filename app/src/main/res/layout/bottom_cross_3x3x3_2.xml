@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_cross_3x3x3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nyní si otočte kostku tak, aby jste viděli na horní stěně 4 správně postavená políčka z předchozího kroku."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_5" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V tomto okamžiku je třeba otáčet horní vrstvou, dokud se neshodují barvy na jednom z fialově vyznačených polí. Jakmile máte pod sebou dvě shodná políčka, otočte 2x inkriminovanou stěnou tak, aby se políčko barvy, kterou skládáte (zde zelené) dostalo na protilehlou stěnu. Toto analogicky opakujte i se zbývajícími zelenými políčky.\n\nPo provedení těchto tahů by jste měli na protilehlé stěně vidět kříž z jedné barvy (zde zelená)."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

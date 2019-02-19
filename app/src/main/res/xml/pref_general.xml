@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="p_cube_colors"
+        android:summary="@string/pref_cube_colors_desc"
+        android:title="@string/pref_cube_colors">
+
+	    <intent 
+	        android:action="android.intent.action.VIEW"
+	        android:targetPackage="info.firzen.cubemaster2"
+	        android:targetClass="info.firzen.cubemaster2.activities.ColorsActivity"
+	    />
+
+	</Preference>
+
+    <info.firzen.cubemaster2.gui.SeekBarPreference
+        android:key="p_cube_size"
+        android:defaultValue="10"
+        android:dialogMessage=""
+        android:max="10"
+        android:text=""
+        android:title="@string/pref_cube_size" />
+    
+    <info.firzen.cubemaster2.gui.SeekBarPreference
+        android:key="p_rotation_speed"
+        android:defaultValue="1"
+        android:dialogMessage=""
+        android:max="10"
+        android:text=""
+        android:summary="@string/pref_rotation_speed_desc"
+        android:title="@string/pref_rotation_speed" />
+    
+    <info.firzen.cubemaster2.gui.SeekBarPreference
+        android:key="p_moves_speed"
+        android:defaultValue="4"
+        android:dialogMessage=""
+        android:max="10"
+        android:text=""
+        android:summary="@string/pref_moves_speed_desc"
+        android:title="@string/pref_moves_speed" />
+
+    <info.firzen.cubemaster2.gui.SeekBarPreference
+        android:key="p_scramble"
+        android:defaultValue="20"
+        android:dialogMessage=""
+        android:max="100"
+        android:text=""
+        android:summary="@string/pref_scramble_count_desc"
+        android:title="@string/pref_scramble_count" />
+    
+    <CheckBoxPreference
+        android:key="p_show_layers_help"
+        android:defaultValue="true"
+        android:summary="@string/pref_show_layers_help_desc"
+        android:title="@string/pref_show_layers_help" />
+    
+    <Preference
+        android:key="p_reset"
+         android:title="@string/reset_settings"
+         android:summary="@string/reset_settings_desc" />
+    
+</PreferenceScreen>

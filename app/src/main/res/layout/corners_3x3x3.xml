@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/corners_3x3x3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nyní již vidíte kostku v tomto tvaru:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_4" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abychom složili první vrstvu, je třeba dostat do ní správně natočená rohová políčka.\n\nZde uprostřed našeho schématu vidíme, že je nutné správně umístit rohové políčko, které obsahuje barvy zelená, žlutá a oranžová. Abychom toho dosáhli, umístíme dané políčko ze spodní vrstvy pod místo, kde se toto políčko má nacházet, tak, jak je naznačeno na následujícím obrázku."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Když máme takto připravené políčku, natočíme si kostku tak, aby naše se naše políčko nacházelo na přední stěne vpravo dole (může být však i vpravo nahoře), a provedeme tahy Ri Di R D. Tyto čtyři tahy opakujeme tak dlouho, dokud není políčko na svém místě, a správně natočeno."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

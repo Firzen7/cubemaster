@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cube master</string>
+    <string name="hello_world">Hello world!</string>
+
+    <drawable name="icon">#333333</drawable>
+
+    <string name="front">FRONT</string>
+    <string name="side_back">BACK</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="up">UP</string>
+    <string name="down">DOWN</string>
+
+    <string name="email">firzen.developer@gmail.com</string>
+
+    <string name="message">Zpráva</string>
+    <string name="ok">OK</string>
+    <string name="warning">Varování</string>
+    <string name="question">Otázka</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="revert_changes">Vrátit změny</string>
+    <string name="repair">Opravit</string>
+    <string name="confirm">Rozumím</string>
+
+    <!-- Solution activity -->
+    <string name="next_move">Další tah</string>
+    <string name="previous_move">Předchozí tah</string>
+    <string name="load_this_side">Načíst</string>
+    <string name="show_solution_now">Vyřešit!</string>
+    <string name="please_load_cube">Nyní zadejte ručně nebo s pomocí kamery podobu vaší kostky.</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_preview">PreviewActivity</string>
+    <string name="title_activity_main_activity">MainActivity</string>
+    <string name="title_activity_detect">DetectActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_cube">Cube master - Skládání kostky</string>
+    <string name="title_activity_solution">Cube master - Naučit se skládat</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <!-- Main menu -->
+    <string name="solve_cube">Skládat kostku</string>
+    <string name="show_solution">Ukázat řešení</string>
+    <string name="settings">Nastavení</string>
+    <string name="help">Nápověda</string>
+
+    <!-- Cube size selection -->
+    <string name="select_size">Zvolte velikost kostky</string>
+    <string name="size_2x2x2">Velikost 2x2x2</string>
+    <string name="size_3x3x3">Velikost 3x3x3</string>
+
+    <!-- Cube loading type selection -->
+    <string name="choose_load_type">Zvolte způsob úpravy</string>
+    <string name="load_by_hand">Zadat ručně</string>
+    <string name="load_by_camera">Načíst pomocí kamery</string>
+    <string name="load_randomly">Náhodně zamíchat</string>
+
+    <!-- Flip selection -->
+    <string name="choose_flip_type">Zvolte způsob překlopení</string>
+    <string name="flip_horizontal">Překlopit vodorovně</string>
+    <string name="flip_vertical">Překlopit svisle</string>
+
+    <!-- Detect activity -->
+    <string name="show_preview">OK</string>
+    <string name="photo">Rozpoznat</string>
+    <string name="detect_hint">Umístěte stěnu kostky do vyznačeného prostoru - tak, aby jej celý vyplnila - a stiskněte Rozpoznat.</string>
+    <string name="logo_alt">Logo programu Rubik\'s cube MASTER</string>
+    <string name="white_balance">Vyvážení bílé</string>
+    <string name="wb_auto">Automaticky</string>
+    <string name="wb_tungsten">Žárovka</string>
+    <string name="wb_fluorescent">Zářivka</string>
+    <string name="wb_daylight">Denní světlo</string>
+    <string name="wb_cloudy">Zataženo</string>
+    <string name="suggest_white_balance">Problémy s rozpoznáváním? Zkuste nastavit vyvážení bílé pomocí stisku tlačítka \"Menu\".</string>
+
+    <!-- Cube activity -->
+    <string name="rotate_side">Rotovat</string>
+    <string name="load_side">Vyfotit</string>
+    <string name="game_mode">Herní režim</string>
+    <string name="back">Zpět</string>
+    <string name="forward">Vpřed</string>
+    <string name="edit_cube">Editovat</string>
+    <string name="play_cube">Hrát</string>
+    <string name="edit_colors">Editace barev → </string>
+    <string name="stop_colors_editing">Vypnout barvení</string>
+    <string name="layer_help">Návod</string>
+    <string name="reset_cube">Resetovat kostku</string>
+
+    <string name="cant_reset_cube_while_solving">The cube cannot be reset during solving</string>
+    <string name="cant_scramble_while_solving">The cube cannot be scrambled during solving</string>
+    <string name="checking_cube">Checking cube</string>
+    <string name="checking_cube_validity">Checking cube validity ...</string>
+    <string name="solving_cube">Solving cube</string>
+    <string name="computation_in_progress">Computation in progress ...</string>
+    <string name="show_moves_to_solution">Display solution by pressing Next and Back.</string>
+    <string name="cube_is_solved">Your cube is solved!</string>
+    <string name="no_instructions_so_far">There is no instructions so far, press Next to show them.</string>
+    <string name="step">Step</string>
+    <string name="check_highlighted_fields">Please check highlighted fields</string>
+    <string name="invalid_counts_of_colours">Counts of coloured fields must remain the same, please check</string>
+    <string name="invalid_cube">It is impossible to solve this cube. Please fix cube configuration or load previous state.</string>
+    <string name="return_to_main_menu">Current state of the cube will be lost after getting back to the main menu. Do you want to continue?</string>
+
+    <!-- Settings activity -->
+    <string name="erase_settings">Tato operace vymaže jakékoli nastavení, které bylo změněno.</string>
+    <string name="erase_settings_proceed">Opravdu chcete obnovit výchozí nastavení?</string>
+    <string name="settings_reset_done">Výchozí nastavení bylo obnoveno.</string>
+
+    <!-- Colors activity -->
+    <string name="title_activity_colors">Úprava barev kostky</string>
+    <string name="save">Uložit</string>
+    <string name="cancel">Storno</string>
+
+    <!-- Errors -->
+    <string name="error_init_cube">Došlo k chybě při inicializaci 3D kostky!</string>
+    <string name="error_cant_move">Nepodařilo se provést tah!</string>
+    <string name="error_general">Chyba!</string>
+    <string name="error_flip">Při překlopení stěny došlo k chybě!</string>
+    <string name="error_rotate">Při rotaci stěny došlo k chybě!</string>
+    <string name="settings_bg_color_dialog">Zvolte barvu</string>
+    <string name="settings_default_color_confirm">Původní</string>
+    <string name="settings_bg_color_confirm">Nová</string>
+    <string name="title_activity_solving_help">SolvingHelpActivity</string>
+    <string name="title_activity_usage_tips">UsageTipsActivity</string>
+    <string name="title_activity_cheatsheet">CheatsheetActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_error">ErrorActivity</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/final_corners_3x3x3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kostka je nyní v tomto tvaru:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_18" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zbývá tedy již jen poskládat poslední čtyři rohy! Než je však budeme moci složit, je zapotřebí prohodit jejich pozice tak, aby se barevně shodovaly se třemi sousedními stranami. Je tedy nutné poskládat rohy tak, aby je již stačilo jen pootočit, a mohly přitom zůstat na svých pozicích.\n\nK tomu se používají tahy U R Ui Li U Ri Ui L, které postupně prohazují políčka na následujících pozicích (vyznačeno fialově):"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:src="@drawable/cube_3x3x3_19" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokud tedy máte nějaký roh již správně natočený, udržujte jej vpravo nahoře na přední stěně."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

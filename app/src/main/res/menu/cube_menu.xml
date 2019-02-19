@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.camexperiments.CubeActivity" >
+    
+    <item
+        android:id="@+id/scramble"
+        android:showAsAction="never"
+        android:title="@string/load_randomly"/>
+    
+   <item
+        android:id="@+id/reset"
+        android:showAsAction="never"
+        android:title="@string/reset_cube"/>
+   
+   <item
+        android:id="@+id/help"
+        android:showAsAction="never"
+        android:title="@string/help"/>
+   
+</menu>

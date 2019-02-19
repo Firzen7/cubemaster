@@ -1,0 +1,18 @@
+<resources>
+    <string name="title_activity_settings">Nastavení programu</string>
+    
+    <string name="pref_cube_colors">Nastavit barvy kostky</string>
+    <string name="pref_cube_size">Velikost kostky</string>
+    <string name="pref_rotation_speed">Plynulost rotace</string>
+    <string name="pref_moves_speed">Rychlost tahů</string>
+    <string name="pref_show_layers_help">Zobrazovat řešení</string>
+    <string name="pref_scramble_count">Počet tahů k zamíchání</string>
+    <string name="reset_settings">Obnovit výchozí nastavení</string>
+    
+    <string name="pref_cube_colors_desc">Nastavuje barvy jednotlivých políček na kostce</string>
+    <string name="pref_rotation_speed_desc">Určuje, jak plynulá bude animace otáčení celé kostky</string>
+    <string name="pref_moves_speed_desc">Nastavuje rychlost animace tahů na kostce</string>
+    <string name="pref_show_layers_help_desc">Zapne či vypne vyskakovací nápovědy při procházení tahů k řešení</string>
+    <string name="pref_scramble_count_desc">Nastavuje počet náhodných tahů pro zamíchání kostky</string>
+    <string name="reset_settings_desc">Obnoví vešekerá nastavení na výchozí hodnoty</string>
+</resources>

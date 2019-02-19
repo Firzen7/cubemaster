@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Užitečné tipy"
+        android:textSize="30sp" />
+    
+        <ScrollView
+	        android:id="@+id/scrollView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/textView1" >
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical" >
+
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Jak mám načíst kostku kamerou?"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <TextView
+	                android:id="@+id/textView6"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="3dp"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginStart="10dp"
+	                android:text="V hlavním menu aplikace zvolte Skládat kostku, a poté přejděte do režimu úprav pomocí volby Editovat, a nakonec stiskněte tlačítko Načíst. Načte se vždy stěna, kterou v aplikaci v danou chvíli vidíte. Otáčejte tedy virtuální kostkou, aby jste načetli postupně všechny stěny." />
+
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Jak mám převrátit stěnu kostky vodorovně či svisle?"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <TextView
+	                android:id="@+id/TextView01"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginStart="10dp"
+	                android:layout_marginTop="3dp"
+	                android:text="Při skládání kostky přejděte do režimu úprav pomocí tlačítka Editovat, a dlouze podržte tlačítko Rotovat." />
+
+	            <TextView
+	                android:id="@+id/textView4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Načítání pomocí kamery je velmi nepřesné, co mám dělat?"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <TextView
+	                android:id="@+id/TextView02"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginStart="10dp"
+	                android:layout_marginTop="3dp"
+	                android:text="Při načítání kostky kamerou dlouze podržte tlačítko Rozpoznat, a nastavte vyvážení bílé na hodnotu, při které se barvy náhledu kamery budou nejvíce shodovat s realitou. Pokud se vám ani poté nebude dařit, obarvěte kostku ručně v režimu úprav pomocí barevné palety vpravo nahoře." />
+
+	            <TextView
+	                android:id="@+id/textView5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Dá se nějak obnovit původní nastavení programu?"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <TextView
+	                android:id="@+id/TextView03"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginStart="10dp"
+	                android:layout_marginTop="3dp"
+	                android:text="Ano. V hlavním manu zvolte Nastavení, a úplně dole pak naleznete položku pro obnovu nastavení." />
+            
+        </LinearLayout>
+            
+    </ScrollView>
+
+</RelativeLayout>

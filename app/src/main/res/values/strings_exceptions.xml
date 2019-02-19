@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_camera">This device doesn\'t have a camera!</string>
+    <string name="error">Error</string>
+
+    <string name="error_cam_orientation">Unknown camera orientation!</string>
+    <string name="error_null_colors">Colors must not be null!</string>
+    <string name="error_hardware_failure">Possible hardware failure!</string>
+    <string name="error_reset_cube">Error during cube reset</string>
+    <string name="error_scrambling">Error during scrambling the cube</string>
+    <string name="error_saving_cube_state">Error while saving current cube state</string>
+    <string name="error_solving_cube">Error during solving cube!</string>
+    <string name="error_unsupported_cube_size">Unsupported cube size!</string>
+    <string name="error_solving_fatal">Fatal solving error!</string>
+    <string name="error_damaged_photo">Captured photo is damaged!</string>
+    <string name="error_camera_init">Camera could not be initialized!</string>
+    <string name="error_critical_report">Critical error occured! Please report!</string>
+    <string name="error_invoking_help">Error while invoking help!</string>
+    <string name="error_report">Report error</string>
+    <string name="error_describe_behaviour">Please describe your actions before incident:</string>
+</resources>
